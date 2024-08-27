@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+#root{
+  margin: 0;
+  padding: 0;
+}
+
+.hamburger {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.hamburger div {
+  width: 80%;
+  height: 2px;
+  background-color: #f0e9e9;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.open .bar1 {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  transform: rotate(45deg) translate(-6px, -6px);
+}
