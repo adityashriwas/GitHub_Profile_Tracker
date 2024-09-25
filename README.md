@@ -35,7 +35,7 @@ To get started with GitHub Profile Tracker, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/adityashriwas/GitHub_Profile_Trackder.git
+    git clone https://github.com/adityashriwas/GitHub_Profile_Tracker.git
     ```
 
 2. Install dependencies:
