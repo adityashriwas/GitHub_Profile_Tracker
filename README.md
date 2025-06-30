@@ -40,7 +40,7 @@ To get started with GitHub Profile Tracker, follow these steps:
 
 2. Install dependencies:
     ```sh
-    npm install react-router-dom
+    npm install
     ```
 
 3. Start the application:
